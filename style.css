@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #4facfe, #00f2fe);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    background-color: white;
+    width: 320px;
+    padding: 25px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+input {
+    width: 90%;
+    padding: 10px;
+    margin: 8px 0;
+}
+
+button {
+    width: 95%;
+    padding: 10px;
+    background-color: #4facfe;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #328ae0;
+}
+
+.toggle span {
+    color: blue;
+    cursor: pointer;
+}
+
+#msg {
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+#rememberBox {
+    text-align: left;
+    margin-left: 15px;
+    font-size: 14px;
+}

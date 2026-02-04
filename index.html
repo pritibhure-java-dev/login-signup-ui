@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login & Signup UI</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <div class="card">
+        <h2 id="title">Login</h2>
+
+        <!-- Name field (Signup only) -->
+        <input type="text" id="name" placeholder="Full Name" style="display:none;">
+
+        <!-- Email field -->
+        <input type="email" id="email" placeholder="Email">
+
+        <!-- Password field -->
+        <input type="password" id="password" placeholder="Password">
+
+        <!-- Confirm Password (Signup only) -->
+        <input type="password" id="confirmPassword" placeholder="Confirm Password" style="display:none;">
+
+        <!-- Mobile number (Signup only) -->
+        <input type="text" id="mobile" placeholder="Mobile Number" style="display:none;">
+
+        <!-- Submit button -->
+        <button onclick="submitForm()">Submit</button>
+
+        <!-- Toggle Login/Signup -->
+        <p class="toggle">
+            <span onclick="toggleForm()">Create new account</span>
+        </p>
+
+        <!-- Message area -->
+        <p id="msg"></p>
+
+        <!-- Remember Me (Login only) -->
+        <div id="rememberBox">
+            <input type="checkbox" id="remember">
+            <label for="remember">Remember Me</label>
+        </div>
+
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
